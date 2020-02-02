@@ -38,7 +38,7 @@ node {
     stage('Push to Docker Registry'){
 //         withCredentials([usernamePassword(credentialsId: 'DockerHub', usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD')]) {
 //             pushToImage(CONTAINER_NAME, CONTAINER_TAG, USERNAME, PASSWORD)
-        }
+//        }
     }
 
     stage('Run App'){
